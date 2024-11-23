@@ -1,21 +1,84 @@
 {
   "products": [
     {
-      "id": "8992745120650",
-      "name": "Wireless Mouse",
-      "description": "Ergonomic wireless mouse with high precision.",
-      "price": 150000,
-      "stock": 110
+      "id": "9786026232243",
+      "name": "Buku Pemrograman Web",
+      "description": "Menjadi pemrograman Web denan HTML, CSS dan Javascript",
+      "price": "80000",
+      "stock": "25"
+    },
+    {
+      "id": "9789794968192",
+      "name": "Buku Imunologi Dasar",
+      "description": "Buku untuk belajar sistem imun",
+      "price": "120000",
+      "stock": 20
     }
   ],
   "logs": [
     {
-      "id": 1,
-      "product_id": "8992745120650",
+      "id": "a1b2",
+      "product_id": "6972661281705",
+      "type": "stock_in",
+      "quantity": 30,
+      "note": "Restock barang dari supplier",
+      "date": "2024-11-23T10:00:00.000Z"
+    },
+    {
+      "id": "c3d4",
+      "product_id": "6972661281705",
+      "type": "stock_out",
+      "quantity": 10,
+      "note": "Pesanan pelanggan",
+      "date": "2024-11-23T12:15:00.000Z"
+    },
+    {
+      "id": "e5f6",
+      "product_id": "9786026232243",
+      "type": "stock_in",
+      "quantity": 50,
+      "note": "Restock buku baru",
+      "date": "2024-11-23T09:30:00.000Z"
+    },
+    {
+      "id": "g7h8",
+      "product_id": "9786026232243",
+      "type": "stock_out",
+      "quantity": 5,
+      "note": "Penjualan retail",
+      "date": "2024-11-23T11:00:00.000Z"
+    },
+    {
+      "id": "i9j0",
+      "product_id": "6972661281705",
+      "type": "stock_out",
+      "quantity": 15,
+      "note": "Pesanan borongan",
+      "date": "2024-11-23T13:45:00.000Z"
+    },
+    {
+      "id": "k1l2",
+      "product_id": "9786026232243",
+      "type": "stock_in",
+      "quantity": 20,
+      "note": "Tambahan stok buku dari gudang pusat",
+      "date": "2024-11-23T14:00:00.000Z"
+    },
+    {
+      "id": "f029",
+      "product_id": "9789794968192",
       "type": "stock_in",
       "quantity": 10,
-      "note": "Restocked due to high demand",
-      "date": "2024-11-22T10:00:00Z"
+      "note": "Pengambilan stock dari gudang",
+      "date": "2024-11-23T16:17:13.778Z"
+    },
+    {
+      "id": "9f54",
+      "product_id": "9789794968192",
+      "type": "stock_out",
+      "quantity": 20,
+      "note": "Borongan dari suatu sekolah",
+      "date": "2024-11-23T16:18:33.326Z"
     }
   ]
 }

@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 50px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+  margin-bottom: 30px;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.actions input {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.actions input:focus {
+  outline: none;
+  border-color: #ccc;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 20px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #f4f4f9;
+}
+
+table tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+.edit-btn {
+  background-color: #2c9b30;
+}
+
+.edit-btn:hover {
+  background-color: #037e07;
+}
+
+.delete-btn {
+  background-color: #fa2727;
+}
+
+.delete-btn:hover {
+  background-color: #d61a1a;
+}
+
+a.edit-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  text-decoration: none;
+  padding: 10px 17px;
+  font-size: 0.74rem;
+  align-items: center;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #2c9b30;
+}
+
+a.add-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  text-decoration: none;
+  padding: 10px 17px;
+  font-size: 0.74rem;
+  align-items: center;
+  border-radius: 5px;
+  color: #fff;
+  background-color: rgb(67, 67, 255);
+}
+
+.search-container {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.search-container span {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.scan-btn,
+.add-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  background-color: rgb(67, 67, 255);
+}
+
+.add-btn:hover,
+.scan-btn:hover {
+  background-color: rgb(57, 57, 212);
+}

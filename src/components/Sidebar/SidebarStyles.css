@@ -1,0 +1,112 @@
+.aside {
+  background-color: rgb(36, 71, 106);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.aside h2 {
+  color: aliceblue;
+  margin-top: 20px;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.list-menu {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.list-menu ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 20px;
+  padding: 0;
+}
+
+.list-menu ul li {
+  position: relative;
+}
+
+.list-menu ul li a,
+.menu-button {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
+.list-menu ul li a:hover,
+.menu-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgb(184, 184, 184);
+}
+
+.menu-button {
+  background-color: transparent;
+  display: block;
+  border: none;
+  text-align: left;
+  width: 100%;
+}
+
+.submenu {
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.submenu li {
+  font-size: 1rem;
+}
+
+.submenu a {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 5px 15px;
+  border-radius: 5px;
+  display: inline-block;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.submenu a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgb(184, 184, 184);
+}
+
+@media (max-width: 768px) {
+  .aside {
+    position: absolute;
+    left: 0;
+    transform: translate(-300px);
+  }
+
+  .aside h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+
+  .list-menu ul li a,
+  .menu-button {
+    font-size: 1rem;
+    padding: 8px 15px;
+  }
+
+  .submenu {
+    margin-left: 20px;
+  }
+
+  .submenu a {
+    font-size: 0.9rem;
+  }
+}
